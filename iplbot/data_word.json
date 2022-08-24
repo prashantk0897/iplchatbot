@@ -1,0 +1,370 @@
+{"intents": [{"context": "",
+    "patterns": ["hi","Hello","Hi there", "Good morning","Hi","What"],
+    "responses": ["Hey!","Hello", "Hi!", "Good morning!"],
+    "tag": "hello"},
+	
+   {"context": [""],
+    "patterns": [],
+    "responses": ["Sorry, cant understand you",
+     "Please give me more info",
+     "Not sure I understand"],
+    "tag": "noanswer"},
+	
+	{"context": [""],
+    "patterns": ["Who are you"],
+    "responses": ["I am IPLBot..."],
+    "tag": "who"},
+
+   {"context": ["IPL"],
+    "patterns": ["IPL","ipl","about ipl","About IPL","What is ipl","Indian Premier League"],
+    "responses": ["The Indian Premier League (IPL) is a professional Twenty20 cricket league in India contested during March or April and May of every year by eight teams representing eight different cities in India. The league was founded by the Board of Control for Cricket in India (BCCI) in 2008. The IPL has an exclusive window in ICC Future Tours Programme.The IPL is the most-attended cricket league in the world and in 2014 ranked sixth by average attendance among all sports leagues. In 2010, the IPL became the first sporting event in the world to be broadcast live on YouTube. The brand value of the IPL in 2019 was ₹475 billion (US$6.7 billion), according to Duff & Phelps. According to BCCI, the 2015 IPL season contributed ₹11.5 billion (US$160 million) to the GDP of the Indian economy.There have been twelve seasons of the IPL tournament. The current IPL title holders are the Mumbai Indians, who won the 2019 season. The venue for the 2020 season has been moved, due to the ongoing COVID-19 pandemic; games will now take place in the United Arab Emirates from September 19 through November 10."],
+    "tag": "IPL"},
+
+   {"context": ["history"],
+    "patterns": ["History of ipl","Backgraound of ipl","Backgraound of Indian Cricket League","Indian Cricket League background","ipl background","background","background and history","history and background","IPL History","ipl history","The Indian Premier League history","history of The Indian Premier League","history","History"],
+    "responses": ["The Indian Cricket League (ICL) was founded in 2007, with funding provided by Zee Entertainment Enterprises. The ICL was not recognised by the Board of Control for Cricket in India (BCCI) or the International Cricket Council (ICC) and the BCCI were not pleased with its committee members joining the ICL executive board. To prevent players from joining the ICL, the BCCI increased the prize money in their own domestic tournaments and also imposed lifetime bans on players joining the ICL, which was considered a rebel league by the board."],
+    "tag": "history"},
+	
+   {"context": "",
+    "patterns": ["What is Foundation", "Foundation","Foundation of ipl","ipl foundation"],
+    "responses": ["On 13 September 2007, the BCCI announced the launch of a franchise-based Twenty20 cricket competition called Indian Premier League whose first season was slated to start in April 2008, in a high-profile ceremony in New Delhi. BCCI vice-president Lalit Modi, said to be the mastermind behind the idea of the IPL, spelled out the details of the tournament including its format, the prize money, franchise revenue system and squad composition rules. It was also revealed that the IPL would be run by a seven-man governing council composed of former India players and BCCI officials and that the top two teams of the IPL would qualify for that year's Champions League Twenty20. Modi also clarified that they had been working on the idea for two years and that the IPL was not started as a knee-jerk reaction to the ICL. The league's format was similar to that of the Premier League of England and the NBA in the United States.In order to decide the owners for the new league, an auction was held on 24 January 2008 with the total base prices of the franchises costing around $400 million. At the end of the auction, the winning bidders were announced, as well as the cities the teams would be based in: Bangalore, Chennai, Delhi, Hyderabad, Jaipur, Kolkata, Mohali, and Mumbai. In the end, the franchises were all sold for a total of $723.59 million. The Indian Cricket League soon folded in 2008."],
+    "tag": "Foundation"},
+	
+   {"context": "",
+    "patterns": ["Expansions and terminations", "ipl expansions", "ipl terminations","ipl expansions and terminations"],
+    "responses": ["On 21 March 2010, it was announced that two new franchises – Pune Warriors India and Kochi Tuskers Kerala – would join the league before the fourth season in 2011. Sahara Adventure Sports Group bought the Pune franchise for $370 million while Rendezvous Sports World bought the Kochi franchise for $333.3 million. However, one year later, on 11 November 2011, it was announced that the Kochi Tuskers Kerala side would be terminated following the side breaching the BCCI's terms of conditions.Then, on 14 September 2012, following the team not being able to find new owners, the BCCI announced that the 2009 champions, the Deccan Chargers, would be terminated. The next month, on 25 October, an auction was held to see who would be the owner of the replacement franchise, with Sun TV Network winning the bid for the Hyderabad franchise. The team would be named Sunrisers Hyderabad.Pune Warriors India withdrew from the IPL on 21 May 2013 over financial differences with the BCCI. The franchise was officially terminated by the BCCI, on 26 October 2013, on account of the franchise failing to provide the necessary bank guarantee.On 14 June 2015, it was announced that two-time champions, Chennai Super Kings, and the inaugural season champions, Rajasthan Royals, would be suspended for two seasons following their role in a match-fixing and betting scandal. Then, on 8 December 2015, following an auction, it was revealed that Pune and Rajkot would replace Chennai and Rajasthan for two seasons. The two teams were the Rising Pune Supergiant and the Gujarat Lions."],
+    "tag": "Expansions and terminations"},
+	
+   {"context": "",
+    "patterns": ["What is Tournament format", "Tournament format","Tournament format of ipl","format"],
+    "responses": ["Currently, with eight teams, each team plays each other twice in a home-and-away round-robin format in the league phase. At the conclusion of the league stage, the top four teams will qualify for the playoffs. The top two teams from the league phase will play against each other in the first Qualifying match, with the winner going straight to the IPL final and the loser getting another chance to qualify for the IPL final by playing the second Qualifying match. Meanwhile, the third and fourth place teams from league phase play against each other in an eliminator match and the winner from that match will play the loser from the first Qualifying match. The winner of the second Qualifying match will move onto the final to play the winner of the first Qualifying match in the IPL Final match, where the winner will be crowned the Indian Premier League champions."],
+    "tag": "Tournament format"},
+	
+   {"context": "feeling",
+    "patterns": ["I am good too",
+     "I feel fine",
+     "Good !",
+     "Fine",
+     "I am good",
+     "I am great",
+     "great"],
+    "responses": ["That is perfect!", "So, everythings okay!"],
+    "tag": "good"},
+	
+   {"context": "feeling",
+    "patterns": ["I am feeling bad", "No I am sad", "No"],
+    "responses": ["I hope you will feel better !"],
+    "tag": "bad"},
+	
+   {"context": "",
+    "patterns": ["What can you do", "What can I ask you", "Can you help me"],
+    "responses": ["I can do a lot of things but here are some of my skills, you can ask me: the capital of a country, its currency and its area. A random number. To calculate a math operation."],
+    "tag": "actions"},
+	
+   {"context": "",
+    "patterns": ["Are you a girl", "You are a women"],
+    "responses": ["Sure, I am a women"],
+    "tag": "women"},
+	
+   {"context": "",
+    "patterns": ["Are you a men", "Are you a boy"],
+    "responses": ["No, I am a women"],
+    "tag": "men"},
+	
+   {"context": "",
+    "patterns": ["Thank you", "Thank you very much", "thanks"],
+    "responses": ["I only do my jobď¸", "No problem!"],
+    "tag": "thanks"},
+	
+   {"context": "",
+    "patterns": ["Goodbye", "Good afternoon", "Bye"],
+    "responses": ["Goodbye!", "See you soon!"],
+    "tag": "goodbye"},
+	
+   {"context": "",
+    "patterns": ["Where do you live"],
+    "responses": ["I live in a server located in the US!"],
+    "tag": "city"},
+	
+   {"context": "",
+    "patterns": ["What are you doing"],
+    "responses": ["Actually, I m chatting with somebody"],
+    "tag": "action"},
+	
+   {"context": "",
+    "patterns": ["Can you wait 2 minutes", "Please wait", "Wait 2 secs please"],
+    "responses": ["Sure! I wait."],
+    "tag": "wait"},
+	
+   {"context": "",
+    "patterns": ["Are you still there?", "Are you here?"],
+    "responses": ["Of course! Always at your service."],
+    "tag": "still there"},
+
+ {"context": "",
+    "patterns": ["Player acquisition, squad composition and salaries", "Player salaries", "player auction","player"],
+    "responses": ["A team can acquire players through any of the three ways: the annual player auction, trading players with other teams during the trading windows, and signing replacements for unavailable players. Players sign up for the auction and also set their base price, and are bought by the franchise that bids the highest for them. Unsold players at the auction are eligible to be signed up as replacement signings. In the trading windows, a player can only be traded with his consent, with the franchise paying the difference if any between the old and new contracts. If the new contract is worth more than the older one, the difference is shared between the player and the franchise selling the player. There are generally three trading windows—two before the auction and one after the auction but before the start of the tournament. Players cannot be traded outside the trading windows or during the tournament, whereas replacements can be signed before or during the tournament.Some of the team composition rules (as of 2020 season) are as follows:The squad strength must be between 18 and 25 players, with a maximum of 8 overseas players.Salary cap of the entire squad must not exceed ₹850 million (US$12 million).Under-19 players cannot be picked unless they have previously played first-class or List A cricket.A team can play a maximum of 4 overseas players in their playing eleven.The term of a player contract is one year, with the franchise having the option to extend the contract by one or two years. Since the 2014 season, the player contracts are denominated in the Indian rupee, before which the contracts were in U.S. dollars. Overseas players can be remunerated in the currency of the player's choice at the exchange rate on either the contract due date or the actual date of payment. Prior to the 2014 season, Indian domestic players were not included in the player auction pool and could be signed up by the franchises at a discrete amount while a fixed sum of ₹1 million (US$14,000) to ₹3 million (US$42,000) would get deducted per signing from the franchise's salary purse. This received significant opposition from franchise owners who complained that richer franchises were luring players with under-the-table deals following which the IPL decided to include domestic players in the player auction.According to a 2015 survey by Sporting Intelligence and ESPN The Magazine, the average IPL salary when pro-rated is US$4.33 million per year, the second highest among all sports leagues in the world. Since the players in the IPL are only contracted for the duration of the tournament (less than two months), the weekly IPL salaries are extrapolated pro rata to obtain an average annual salary, unlike other sports leagues in which players are contracted by a single team for the entire year."],
+    "tag": "Player"},
+
+{"context": "",
+    "patterns": ["What is Match rule", "What is the rule of match","Match rules","match rules","Formate"],
+    "responses": ["IPL games utilise television timeouts and hence there is no time limit in which teams must complete their innings. However, a penalty may be imposed if the umpires find teams misusing this privilege. Each team is given a two-and-a-half-minute strategic timeout during each innings; one must be taken by the bowling team between the ends of the 6th and 9th overs, and one by the batting team between the ends of the 13th and 16th overs.Since the 2018 season, the Umpire Decision Review System is being used in all IPL matches, allowing each team one chance to review an on-field umpire's decision per innings."],
+    "tag": "Match rules"},
+
+{"context": "",
+    "patterns": ["Prize money", "What is Prize money","ipl prize money","IPL Prize money"],
+    "responses": ["In 2022, the prize money for the winners of the Indian Premier League was about 200 million Indian rupees. This was followed by 130 million rupees for the runners-up, 70 million rupees for the third place and 65 million rupees for the fourth price."],
+    "tag": "Prize money"},
+
+
+	
+   {"context": "",
+    "patterns": ["Teams", "How many teams in IPL 2022?","teams in IPL","How many Teams"],
+    "responses": ["10 Teams"],
+    "tag": "Teams"}
+,
+	
+   {"context": "",
+    "patterns": ["Current teams","Team Name","team names","which teams", "2022 teams"],
+    "responses": ["1. Chennai Super Kings (CSK)\\n 2. Delhi Capitals (DC)\\n3. Gujarat Titans (GT)\\n4. Kolkata Knight Riders (KKR)\\n5. Lucknow Super Giants (LSG)\\n6. Mumbai Indians (MI)\\n7. Punjab Kings (PBKS)\\n8. Rajasthan Royals (RR)\\n9. Royal Challengers Bangalore (RCB)\\n10. Sun Risers Hyderabad (SRH)"],
+    "tag": "Current teams"}
+,
+	
+   {"context": "",
+    "patterns": ["Orange Cap", "who got Orange Cap","What is orange cap"],
+    "responses": ["The Orange Cap is awarded to the top run-scorer in the IPL during a season. It is an ongoing competition with the leader wearing the cap throughout the tournament until the final game, with the eventual winner keeping the cap for the season."],
+    "tag": "Orange Cap"}
+,
+	
+   {"context": "",
+    "patterns": ["Purple Cap", "who got Purple Cap","What is purple cap"],
+    "responses": ["The Purple Cap is awarded to the top wicket-taker in the IPL during a season. It is an ongoing competition with the leader wearing the cap throughout the tournament until the final game, with the eventual winner keeping the cap for the season."],
+    "tag": "Purple Cap"}
+,
+	
+   {"context": "",
+    "patterns": ["Most Valuable Player", "man of the tournament"],
+    "responses": ["The award was called the man of the tournament till the 2012 season. The IPL introduced the Most Valuable Player rating system in 2013, the leader of which would be named the Most Valuable Player at the end of the season."],
+    "tag": "Most Valuable Player"}
+,
+	
+   {"context": "",
+    "patterns": ["Title sponsorship", "What is Title sponsorship"],
+    "responses": ["From 2008 to 2012, the title sponsor was DLF, India's largest real estate developer, who had secured the rights with a bid of ₹200 crore (US$28 million) for five seasons. After the conclusion of the 2012 season, PepsiCo bought the title sponsorship rights for ₹397 crore (US$56 million) for the subsequent five seasons. However, the company terminated the deal in October 2015 two years before the expiry of the contract, reportedly due to the two-season suspension of Chennai and Rajasthan franchises from the league. The BCCI then transferred the title sponsorship rights for the remaining two seasons of the contract to Chinese smartphone manufacturer Vivo for ₹200 crore (US$28 million). In June 2017, Vivo retained the rights for the next five seasons (2018–2022) with a winning bid of ₹2,199 crore (US$310 million), in a deal more expensive than Barclays' Premier League title sponsorship contract between 2013 and 2016. On 4 August 2020  Vivo got out of ipl title sponsorship rights because stand off between the two countries India and China at LAC ( line of actual control) in July 2020. It was also reported that the withdrawal was a result of Vivo's market losses due to the ongoing COVID-19 situation and that it intended to return as the title sponsors for the following 3 years. Dream 11 has bagged the rights for ipl 2020 title sponsor for amount of ₹220 core."],
+    "tag": "Title sponsorship"}
+,
+	
+   {"context": "",
+    "patterns": ["Broadcasting", "who broadcast ipl","IPL's broadcast","who has ipl broadcast rights"],
+    "responses": ["The IPL's broadcast rights were originally held by a partnership between Sony Pictures Networks and World Sport Group, under a ten-year contract valued at US$1.03 billion. Sony would be responsible for domestic television, while WSG would handle international distribution. The initial plan was for 20% of these proceeds to go to the IPL, 8% as prize money and 72% would be distributed to the franchisees from 2008 until 2012, after which the IPL would go public and list its shares. However, in March 2010, the IPL decided not to go public and list its shares. As of the 2016 season, Sony MAX, Sony SIX, and Sony ESPN served as the domestic broadcasters of the IPL; MAX and SIX aired broadcasts in Hindi, while SIX also aired broadcasts in the Bengali, Tamil, and Telugu languages. Sony ESPN broadcast English-language feeds. Sony also produced an entertainment-oriented companion talk show, Extraaa Innings T20, which featured analysis and celebrity guests.The IPL became a major television property within India; Sony MAX typically became the most-watched television channel in the country during the tournament, and by 2016, annual advertising revenue surpassed ₹12 billion (US$170 million). Viewership numbers were expected to increase further during the 2016 season due to the industry adoption of the new BARC ratings system, which also calculates rural viewership rather than only urban markets. In the 2016 season, Sony's broadcasts achieved just over 1 billion impressions (television viewership in thousands), jumping to 1.25 billion the following year.On 4 September 2017, it was announced that the then-current digital rights-holder, Star India, had acquired the global media rights to the IPL under a five-year contract beginning in 2018. Valued at ₹163.475 billion (US$2.55 billion, £1.97 billion), it is a 158% increase over the previous deal, and the most expensive broadcast rights deal in the history of cricket. The IPL sold the rights in packages for domestic television, domestic digital, and international rights; although Sony held the highest bid for domestic television, and Facebook had made a US$600 million bid for domestic digital rights (which U.S. media interpreted as a sign that the social network was interested in pursuing professional sports rights), Star was the only bidder out of the shortlist of 14 to make bids in all three categories.Star CEO Uday Shankar stated that the IPL was a very powerful property, and that Star would remain very committed to make sure that the growth of sports in this country continues to be driven by the power of cricket. He went on to say that whoever puts in that money, they put in that money because they believe in the fans of the sport. The universe of cricket fans, it tells you, continues to very healthy, continues to grow. What was paid in 2008, that was 2008. India and cricket and IPL—all three have changed dramatically in the last 10 years. It is a reflection of that. The deal led to concerns that Star India now held a monopoly on major cricket rights in the country, as it is also the rights-holder of ICC competitions and the Indian national team.For its inaugural season, Star aimed to put a larger focus on widening the IPL's appeal with a core cricket audience. The network aimed to broadcast at least two hours of IPL-related programming daily from January until the start of the season, having organised televised announcements of player retention selections and new team captains. Viewership of the player auction, which featured pre- and post-auction reactions and analysis, increased six-fold to 46.5 million. In March, Star Sports broadcast Game Plan: In Your City specials from the home city of each of the IPL's franchises. Star Sports stated that its in-season coverage and studio programming would focus more on the game itself and behind-the-scenes coverage of the IPL's teams, rather than trying to incorporate irrelevant entertainment elements. The network introduced a new studio program known as The Dugout, which broadcasts coverage of matches with analysis from a panel of experts.Star broadcasts IPL matches live online in India via its over-the-top video streaming platform Hotstar to subscribers of Hotstar VIP or Hotstar Premium. Matches are also available on Jio TV and Airtel TV apps on smartphones. Throughout the 2019 season, international streaming viewership on Hotstar saw records, exceeding 10 million concurrent viewers multiple times. The 2019 final broke these records, peaking at 18.6 million concurrent streaming viewers.Due to tournament's popularity, Disney (the owner of Star India) decided to launch their streaming service Disney+ (via Hotstar) in India on March 29, 2020, coincidentally with the beginning of the 2020 season. However, with the postponement of the season due to 2019-2020 coronavirus pandemic, the service was nonetheless launched on April 3, 2020 with a short delay."],
+    "tag": "Broadcasting"}
+,
+	
+   {"context": "",
+    "patterns": ["Franchise History", "What is Franchise history","Franchise"],
+    "responses": ["The Board of Control for Cricket in India (BCCI) announced in September 2007 the establishment of the Indian Premier League, a Twenty20 competition to be started in 2008. In January 2008, the BCCI unveiled the owners of eight city-based franchises. The Mumbai franchise was sold to the Reliance Industries Ltd (RIL) for $111.9 million, making it the most expensive team to be sold in the league. RIL, owned by Mukesh Ambani acquired the rights to the franchise for a period of 10 years. The franchise was eventually named Mumbai Indians."],
+    "tag": "Franchise"}
+,
+	
+   {"context": "",
+    "patterns": ["RCB logo design", "RCB logo"],
+    "responses": ["The logo initially consisted the RC emblem in yellow on a circular red base with the black text Royal Challengers Bangalore in standard format surrounding circular logo. The RC crown emblem with the roaring lion placed on the top of the logo was derived from the original Royal Challenge logo. No significant changes took place in the design of the logo except for the replacement of colour yellow with gold from 2009. This logo also had a dotted white circle around the RC emblem. The team also uses an alternate logo for the Game for Green matches where the green plants surround the logo and the text Game for Green is placed below the logo. The logo was redesigned in 2016 with the inclusion of black as a secondary color. The lion emblem in the crest was enlarged and the shield was omitted in the new design. In 2020, a new logo was unveiled featuring a bigger lion and the crown returning from the previous logo. The RC emblem was omitted for this crest."],
+    "tag": "RCBTeam name, motto and logo design"}
+,
+	
+   {"context": "",
+    "patterns": ["Royal Challengers Bangalore", "RCB"],
+    "responses": ["The Royal Challengers Bangalore (often abbreviated as RCB) are  a franchise cricket team based in Bangalore, Karnataka, that plays in the Indian Premier League (IPL). It was founded in 2008 by United Spirits and named after the company's liquor brand Royal Challenge. Since its inception, the team has played its home matches at the M. Chinnaswamy Stadium.<br/>The Royal Challengers have never won the IPL but finished runners-up on three occasions between 2009 and 2016. Their lack of success over the years despite the presence of various notable players has earned them the tag of underachievers. The team holds the records of both the highest and the lowest totals in the IPL – 263/5 and 49 respectively."],
+    "tag": "RCB"}
+,
+	
+   {"context": "",
+    "patterns": ["RCB history", "History of RCB","Royal Challengers Bangalore history"],
+    "responses": ["In September 2007, the Board of Control for Cricket in India (BCCI) announced the establishment of the Indian Premier League, a Twenty20 competition to be started in 2008. The teams for the competition, representing 8 different cities of India, including Bangalore, were put up on auction in Mumbai on 20 February 2008. The Bangalore franchise was purchased by Vijay Mallya, who paid US$111.6 million for it. This was the second highest bid for a team, next only to Reliance Industries' bid of US$111.9 million for the Mumbai Indians."],
+    "tag": "RCB history"}
+
+,
+	
+   {"context": "",
+    "patterns": ["RCB Jersey colours", "Royal Challengers Bangalore Jersey colours"],
+    "responses": ["The jersey colors of the team in 2008 were red and golden yellow, the same as the unofficial Kannada flag, with player names printed in white and numbers printed in black in the rear. Yellow was eliminated in future seasons and was replaced with gold. Starting from 2010, blue was introduced on the apparel as a tertiary colour. The jersey design saw tweaks every season, major being the one for 2014 where blue dominated over gold. From 2014, the player names and numbers were printed in gold. As of 2015, more yellowish shade of gold is being used on the jerseys. The blue was completely eliminated in 2016 and was replaced by black as the third colour in the two versions of the jersey; one for home matches and the other for away ones. From 2020, black was replaced with a shade between dark blue and black. Reebok manufactured kits for the team from 2008 to 2014 and Adidas supplied the kits in 2015. Zeven manufactures the kits for the team from 2016."],
+    "tag": "RCB Jersey colours"}
+,
+	
+   {"context": "",
+    "patterns": ["RCB Theme song", "Theme song of RCB","Theme song of Royal Challengers Bangalore"],
+    "responses": ["The theme song of the team for the 2008 season was Jeetenge Hum Shaan Se. The team anthem,Game for More was created for the 2009 season. The music was composed by Amit Trivedi and written by Anshu Sharma. A new anthem, Here We Go The Royal Challengers was created for the 2013 season and was used till 2015. The anthem Play Bold was composed by Salim–Sulaiman, sung by Siddharth Basrur and was released in 2016 during the launch of jerseys for the season. For 2017, the same anthem was recomposed and sung by Anand Bhaskar in 6 languages - English, Kannada, Telugu, Bengali, Marathi and Punjabi."],
+    "tag": "RCB Theme song"}
+,
+	
+   {"context": "",
+    "patterns": ["Owner of RCB ", "who is the owner of Royal Challengers Bangalore","Owner of RCB","RCB owner"],
+    "responses": [" United Spirits Limited (Diageo)"],
+    "tag": "RCB Owner"}
+,
+	
+   {"context": "",
+    "patterns": ["coach of RCB", "coach of Royal Challengers Bangalore"],
+    "responses": ["Head coach:  Simon Katich \\nBowling coach:  Adam Griffith\\nBatting and spin bowling coach:  Sridharan Sriram"],
+    "tag": "RCB coach"}
+,
+	
+   {"context": "",
+    "patterns": ["rcb captain","Captain of RCB", "Who is the captain of RCB","Who is the captain of Royal Challengers Bangalore","Royal Challengers Bangalore's captain"],
+    "responses": ["Faf Du Plessis"],
+    "tag": "RCB Captains"}
+,
+   {"context": "",
+    "patterns": ["Mumbai Indians motto and logo design", "Mumbai Indians motto"],
+    "responses": ["The motto of the team is Duniya Hila Denge Hum..., which translates to We will rock the world. The first anthem of Mumbai Indians was based on this motto, wherein the Bollywood actor Hrithik Roshan was roped in for a promotional video campaign.The team logo is the Sudarshan Chakra (or Razor) as initially the name of the team was supposed to be Mumbai Razors before Sachin Tendulkar suggested to keep it Mumbai Indians."],
+    "tag": "MI Team name, motto and logo design"}
+,
+	
+   {"context": "",
+    "patterns": ["Mumbai Indians", "MI"],
+    "responses": ["Official websiteThe Mumbai Indians  are a franchise cricket team based in the city of Mumbai, Maharashtra, that play in the Indian Premier League (IPL).Founded in 2008, the team is owned by India's biggest conglomerate, Reliance Industries, through its 100% subsidiary IndiaWin Sports. Since its establishment, the team has played its home matches in the 33,108-capacity Wankhede Stadium in Mumbai.In 2017, the Mumbai Indians became the first franchise to cross the $100 million mark in brand value among the IPL franchises. The brand value of Mumbai Indians, in 2019, is estimated to be around ₹809 crore (roughly $115 million), the highest among all the IPL franchises for the fourth consecutive year.Mumbai Indians is the most successful team in the IPL. They won the 2011 Champions League Twenty20 after beating Royal Challengers Bangalore by 31 runs in the final. The team won the double by winning its first IPL title, in 2013, by defeating Chennai Super Kings by 23 runs in the final, and then defeated the Rajasthan Royals by 33 runs to win its second Champions League Twenty20 title later that year. They won their second IPL title on 24 May 2015 by defeating the Chennai Super Kings by 41 runs in the final and became the third team to win more than one IPL title. On 21 May 2017, they won their third IPL title by defeating the Rising Pune Supergiant by 1 run in a thrilling final, thus becoming the first team to win three IPL titles. While playing the tournament, they won their 100th T20, becoming the first team to do so. In 2019, they repeated the same feat as they won a record breaking fourth IPL title, by beating CSK by just 1 run on 12 May 2019 in IPL Final.Mumbai Indians are currently captained by Rohit Sharma. Mahela Jayawardene was appointed as head coach of Mumbai Indians before the 2017 season. Sharma is the leading run scorer of the team while Lasith Malinga is the leading wicket taker of the team and the IPL as well."],
+    "tag": "Mumbai Indians"}
+,
+	
+   {"context": "",
+    "patterns": ["Mumbai Indians history", "History of Mumbai Indians"],
+    "responses": ["=== 2008–2009: Struggle in the initial seasons ===\\nThe Indian Premier League named four players as icon players for their respective city franchises which made the players unavailable to play for any team other than their city team. Sachin Tendulkar was named Mumbai's icon player. The icon player was also entitled to earn 15% more than the next-best paid player in their team. At first player auctions for the inaugural IPL season conducted in February 2008, the Mumbai franchise bought several star international cricketers such as Sanath Jayasuriya, Harbhajan Singh, Shaun Pollock, Lasith Malinga and Robin Uthappa. The franchise named Sachin Tendulkar as the captain of the team and appointed former India cricketer Lalchand Rajput as the head coach. However, Tendulkar was injured before the start of the 2008 season due to which Harbhajan Singh took over as the captain in the initial stage of the season. The team got off to a bad start in the season losing their first four games by some comprehensive margins. Their first match was a five-wicket defeat to the Royal Challengers Bangalore on 20 April 2008 at the Wankhede. Their stand-in captain, Harbhajan, was suspended from the tournament for reportedly slapping Sreesanth during Mumbai's league match against Kings XI Punjab. After Harbhajan's suspension, Shaun Pollock assumed the leadership duties until Tendulkar's return on 24 May. Under Pollock's captaincy, Mumbai won six out of their next six games which left them needing to win two more out of the remaining four matches to qualify for the semifinals. Mumbai suffered three last-over defeats in the next three games, including two off the last ball, before winning their last league match. They finished fifth in the points table with 7 wins and 7 losses, missing out on a semifinal spot by just one point.The 2009 season was played in South Africa as it coincided with multi-phase 2009 Indian general elections due to which the Government of India refused to commit the Indian paramilitary forces to provide security for the IPL. Before the start of the season, Mumbai Indians traded Robin Uthappa for Zaheer Khan with Royal Challengers Bangalore, and Ashish Nehra for Shikhar Dhawan with the Delhi Daredevils. Shaun Pollock retired after the first season and became the head coach of the team. Lasith Malinga, who missed the previous season due to an injury, returned to the team. At the player auction, Mumbai bought South African batsman JP Duminy to strengthen their batting department. After winning their opening match against the Chennai Super Kings, Mumbai struggled to put up consistent performances during the season. They relied heavily on Duminy and Tendulkar's batting, and Malinga's bowling along with minimal contributions from other players. With only five wins from 14 matches, Mumbai finished on seventh place in the league table.\\n=== 2010–2012: Rise as a strong team ===\\nAt the 2010 players auction, Mumbai Indians bought Trinidadian all-rounder Kieron Pollard for $750,000 following a secret tiebreaker. After the auction, they signed up ten uncapped Indian players out whom seven were former ICL players. Former India cricketer Robin Singh was named as the head coach of the team as Pollock took up the role of bowling coach. Mumbai had to shift their home venue to Brabourne Stadium for the season since the Wankhede was undergoing renovation to host some matches of the 2011 ICC Cricket World Cup. Mumbai won seven of their first eight games to take the top spot in the points table. Their success was mainly due to the efforts of Tendulkar, Malinga, Harbhajan, Ambati Rayudu and Saurabh Tiwary. They won three of the remaining six league games and finished with 20 points from 14 games at the top of the points table. They beat the Royal Challengers Bangalore by 35 runs in the semifinal, thanks to Pollard's all-round efforts (33* from 13 balls, and 3/17). At the final, they were defeated by the Chennai Super Kings by 22 runs. The Mumbai team management was criticised for the strategic errors during the final such as sending Abhishek Nayar and Harbhajan at batting positions 3 and 4 respectively while Duminy and Pollard were sent at 7 and 8. Mumbai skipper Sachin Tendulkar, who scored 618 runs at an average of 47.53 and strike rate of 132.6, won the Orange Cap for scoring most runs in the season. Mumbai qualified for the 2010 Champions League Twenty20 where they were eliminated in the group stage with two wins and two defeats in four matches.\\n"],
+    "tag": "Mumbai Indians history"}
+,
+	
+   {"context": "",
+    "patterns": ["Home Ground of Mumbai Indians", "Mumbai Indians home ground","MI Home Ground"],
+    "responses": ["The Mumbai Indians played home games at the DY Patil Stadium in Navi Mumbai for the first two IPL seasons. In the third season, in 2010, they played all seven home games at the Brabourne Stadium while the Wankhede Stadium underwent renovation to host group matches and the final of the 2011 ICC Cricket World Cup. Mumbai Indians won six out of the seven matches at the Brabourne Stadium that season.Mumbai Indians now play their home games at Wankhede Stadium in Mumbai. The stadium is named after former BCCI President S. K. Wankhede. The stadium is owned by the Mumbai Cricket Association and has a seating capacity of around 45,000."],
+    "tag": "MI Home Ground"}
+,
+	
+   {"context": "",
+    "patterns": ["Mumbai Indians Jersey colours", "MI Jersey colours"],
+    "responses": ["The team's primary colour is blue with silver stripes on either sides of the jersey. The team colours was almost the same in 2008 and 2009, with Idea as the principal sponsor, except for the colour shade and additional sponsors. In 2010, a new kit with golden stripes was unveiled. In 2011, kit used in 2010 is being used with Hero Honda as the main sponsor. The 2011 jersey also has three gold stripes going towards the back on the side of the jersey for the new players in the team. The kit manufacturer was Adidas from the start of IPL in 2008 till 2014. In 2015, Performax, an in-house brand of Reliance Trends, replaced Adidas as the kit manufacturer."],
+    "tag": "MI Jersey colours"}
+,
+	
+   {"context": "",
+    "patterns": ["Mumbai Indians Theme song", "Theme song of Mumbai Indians","Theme song of MI"],
+    "responses": ["The current theme song of the Mumbai Indians is the famous 'Duniya Hila Denge'. Also, after every boundary or a wicket by the team, a fan-made song titled Akkha Mumbai Khelega is always played by the stadium disc jockey."],
+    "tag": "MI Theme song"}
+,
+	
+   {"context": "",
+    "patterns": ["Owner of Mumbai Indians ", "who is the owner of Mumbai Indians","Owner of MI","mi owner"],
+    "responses": [" Nita Ambani,  Mukesh Ambani"],
+    "tag": "MI Owner"}
+,
+	
+   {"context": "",
+    "patterns": ["coach of mi", "coach of Mumbai Indians","MI coach"],
+    "responses": ["Head coach –  Mahela Jayawardene\\nBatting coach –  Robin Singh\\nBatting mentor -  Sachin Tendulkar\\nBowling coach -  Shane Bond\\nFielding coach –  James Pamment"],
+    "tag": "MI coach"}
+,
+	
+   {"context": "",
+    "patterns": ["mi captain","Captain of MI", "Who is the captain of MI","Who is the captain of Mumbai Indians","Mumbai Indians's captain"],
+    "responses": ["Rohit Sharma"],
+    "tag": "MI Captain"}
+
+,
+	
+   {"context": "",
+    "patterns": ["RR logo design", "Rajasthan Royals logo"],
+    "responses": ["The team's mascot is a lion named Moochu Singh."],
+    "tag": "RR logo design"}
+,
+	
+   {"context": "",
+    "patterns": ["The Rajasthan Royals", "RR"],
+    "responses": ["The Rajasthan Royals (often abbreviated as RR) are a franchise cricket team based in Jaipur, Rajasthan, that plays in the Indian Premier League (IPL). Founded in 2008 as one of the initial eight IPL franchises, the team is based at the Sawai Mansingh Stadium in Jaipur.The Rajasthan Royals are sometimes considered as the moneyball team of the IPL. The Royals are known to unearth obscure, high potential talent, as well as their involvement in a number of controversies and scandals.The team won the inaugural edition of the IPL under the captaincy of Shane Warne, despite being written off as a title contender by the media and fans. The Royals were also the runners-up of the 2013 Champions League Twenty20 under Rahul Dravid's captaincy.On 14 July 2015, the verdict reached by a panel appointed by the Supreme Court of India suspended Rajasthan Royals and Chennai Super Kings for two years over a 2013 betting scandal, meaning they could not participate in both the 2016 and 2017 IPL tournaments. They returned to the competition for the 2018 season.The team's record run-scorer is Ajinkya Rahane with 2705 runs, while the leading wicket-taker is Shane Watson, with 67."],
+    "tag": "RR"}
+,
+	
+   {"context": "",
+    "patterns": ["RR history", "History of Rajasthan Royals","Rajasthan Royals history"],
+    "responses": ["=== 2008 IPL season ===\\nBefore the start of the inaugural IPL season, many considered the Royals as possibly the weakest team in the IPL, giving them little chance of competing well in the tournament. Evidence of the latter opinion seemed to be confirmed when the team lost its first match against the Delhi Daredevils in a 9 wicket loss. The fears were confirmed that the team was likely to struggle.In their first home game ever at Sawai Mansingh Stadium in Jaipur, they played against the Kings XI Punjab and won by 6 wickets as Shane Watson was declared the man of the match for his unbeaten 76 off 49 balls in what was a successful run chase. That was followed by a crucial 3 wicket win against the season favourite, Deccan Chargers, in Hyderabad. The victory proved to be a huge morale booster. Yusuf Pathan won the first man of the match award for his bowling figures of 2/20 in 4 overs and a 28-ball 61.\\nThe next game against the Kolkata Knight Riders was won by 45 runs where Swapnil Asnodkar received his first man of the match award for a fine knock of 60 off just 34 balls.\\nThey further managed to defeat the Chennai Super Kings in Jaipur but lost to Mumbai Indians in Navi Mumbai. The Royals continued to win the next five games in a row. They were the first team to book a place in the semi-finals with their 65 run win over the Royal Challengers Bangalore and were pitted against Chennai Super Kings for the finals. The Royals won by 3 wickets in the final played on 1 June 2008.\\nThe all-rounder Shane Watson won the man of the tournament award for scoring as many as 472 runs and picking 17 wickets. His captaincy and coaching was praised and well received by everyone, including opposition teams.Each player and representative on the team was awarded a medal. The team was presented with the DLF Indian Premier League trophy along with a cheque for US$1.2  million prize money. Many of the Royals players also took home individual awards for their performance during the tournament; Yusuf Pathan claimed the Man of the Match award for the final match, Sohail Tanvir finished the tournament in possession of the Purple Cap (the IPL's leading wicket-taker), and Australian all-rounder Shane Watson was declared the Man of the Series.\\n=== 2009 IPL season ===\\nThe Royals were the defending champions. Sohail Tanvir was ineligible to play for the team due to the ban imposed by the BCCI on Pakistani players playing in the competition. Shane Watson was unavailable for the whole season as Australia toured to UAE for the ODI series against Pakistan. Without these two, the team looked slightly weaker than the previous season and players such as Graeme Smith, Shaun Tait, and Shane Warne had to be relied on.The maiden match was lost against the Royal Challengers Bangalore in a 75-run washout. They remained defeated by Mumbai Indians, Kolkata Knight Riders, Kings XI Punjab, and Chennai Super Kings but they won over Delhi Daredevils and Deccan Chargers. The Royals were at the end of the points table. Mohammed Kaif, Dinesh Salunkhe, Paras Dogra, Anup Revandkar, Shrideep Mangela, Ashraf Makda, and Azhar Malik were dropped from the team and sent home.Rajasthan Royals ended 6th out of the 8 teams in the competition, winning 6 matches out of the 14 they played. The Royals failed to make it to the semi-finals after losing their last two matches against Delhi Daredevils and Kolkata Knight Riders.\\n=== British Asian Cup ===\\nOn 14 May 2009, it was announced that Rajasthan Royals would meet Middlesex Crusaders in a one-off Twenty20 for the British Asian Cup. It was the first time that an annual charity series was to be played between the Twenty20 champions of the two countries. The match took place on 6 July 2009. The teams  were announced on 3 July 2009 with Rajasthan Royals including Mohammad Kaif and the comeback of Sohail Tanvir.\\nThe match was won by Rajasthan Royals by 46 runs after scoring 162/5 in 20 overs and successfully defending it by 46 runs (Middlesex 116/7). The Man of the Match was Dimitri Mascarenhas.\\n=== 2010 IPL season ===\\nThe Royals were back in India after their average outing in South Africa. This time they seemed to be a better outfit as they were to play in conditions that should have suited them the most. But they had to suffer an unfortunate start to the competition, with a narrow 4 run defeat to the Mumbai Indians at the Brabourne Stadium in Mumbai. The highlight of this match though, was Yusuf Pathan hitting the fastest ever hundred in IPL history, off only 37 balls. Even some of the Mumbai fans were disappointed not to see Rajasthan win, by the end of it all. They went on to lose to the Delhi Daredevils by 6 wickets in one of their new ‘home’ grounds, Ahmedabad. And were again bruised badly by the Royal Challengers Bangalore, who won by 10 wickets. The team remained inconsistent throughout the whole season, winning their next four matches consecutively. One of the young Turks of the erstwhile ICL, Abhishek Jhunjhunwala impressed against the franchise representing his home state, Kolkata Knight Riders as his 36-ball 45 helped the Royals win by 34 runs.\\nFollowed by which the Western Australian batsman Adam Voges hit 45 runs off 24 balls to help Rajasthan beat Punjab in Mohali by 31 runs. The team seemed to have adapted to the Ahmedabad conditions better with wins against Deccan Chargers by 8 wickets as Yusuf Pathan continued his good form against the team, while they beat Chennai Super Kings by 17 runs courtesy wicket-keeper batsman Naman Ojha's 49-ball 80.\\nt they lost against Chennai in their return clash as Murali Vijay's hundred took the game away from them as well as were crushed in Delhi by 67 runs. But they managed to escape a Deccan Chargers attack, with a narrow 2 run victory in Nagpur and continued their unbeaten run in Jaipur though, as the out of sorts Kings XI Punjab were duly beaten by 9 wickets with English opener Michael Lumb winning the man of the match award for his 43-ball 83."],
+    "tag": "RR history"}
+
+,
+	
+   {"context": "",
+    "patterns": ["Rajasthan Royals Jersey colours", " Jersey colours Rajasthan Royals"],
+    "responses": ["The jersey colors of the team in 2008 were red and golden yellow, the same as the unofficial Kannada flag, with player names printed in white and numbers printed in black in the rear. Yellow was eliminated in future seasons and was replaced with gold. Starting from 2010, blue was introduced on the apparel as a tertiary colour. The jersey design saw tweaks every season, major being the one for 2014 where blue dominated over gold. From 2014, the player names and numbers were printed in gold. As of 2015, more yellowish shade of gold is being used on the jerseys. The blue was completely eliminated in 2016 and was replaced by black as the third colour in the two versions of the jersey; one for home matches and the other for away ones. From 2020, black was replaced with a shade between dark blue and black. Reebok manufactured kits for the team from 2008 to 2014 and Adidas supplied the kits in 2015. Zeven manufactures the kits for the team from 2016."],
+    "tag": "RR Jersey colours"}
+,
+	
+   {"context": "",
+    "patterns": ["Rajasthan Royals Theme song", "Theme song of Royals","Theme song of Rajasthan Royals"],
+    "responses": ["The team anthem used to be 'Halla Bol'. In the first IPL season, the song was sung by Ila Arun. In the second season, it was sung by Sunidhi Chauhan. Their current anthem, released in 2018, is 'Phir Halla Bol'."],
+    "tag": "RR Theme song"}
+,
+	
+   {"context": "",
+    "patterns": ["Owner of RR ", "who is the owner of Rajasthan Royals","Owner of Rajasthan Royals","RR owner"],
+    "responses": ["  Amisha Hathiramani,  Manoj Badale,  Lachlan Murdoch,  Shane Warne"],
+    "tag": "RR Owner"}
+,
+	
+   {"context": "",
+    "patterns": ["coach of RR", "coach of Rajasthan Royals"],
+    "responses": ["Head coach -  Andrew McDonald\\nBatting coach -  Amol Muzumdar\\nSpin bowling coach -  Sairaj Bahutule\\nSpin consultant and operations executive -  Ish Sodhi\\nFast bowling coach -  Rob Cassell\\nFast bowling development coach -  Steffan Jones\\nFielding coach -  Dishant Yagnik"],
+    "tag": "RR coach"}
+,
+	
+   {"context": "",
+    "patterns": ["rr captain","Captain of RR", "Who is the captain of RR","Who is the captain of Rajasthan Royals","Rajasthan Royals's captain"],
+    "responses": ["Sanju Samson"],
+    "tag": "RR Captains"}
+
+,
+	
+   {"context": "",
+    "patterns": [" Kolkata Knight Riders logo design", "Kolkata Knight Riders logo", "KKR logo"],
+    "responses": ["Initially, when Kolkata Knight Riders were first introduced in 2008, the logo of the team consisted of a blazing golden Viking helmet against a black background with the name of the team written in gold next to it. However, the black background was changed to purple in the third season. It was in 2012 that the current logo, which has a blazing purple Corinthian helmet trimmed with gold, with Kolkata Knight Riders written within a shield was introduced.The tagline of the team was All the King's Men during the first four seasons. However, in the fifth it was replaced by New Dawn, New Knights. The team's official colours were black and gold during the first two seasons. At the time, Khan said that golden symbolizes spirit of life and black presents the Goddess Kali. It was later changed to purple and gold during the third season and was kept so. The jersey was created by Bollywood fashion designer Manish Malhotra.The main theme of the team Korbo, Lorbo, Jeetbo Re (we will act, fight and win!) was scored by Vishal-Shekhar duo. A Knight Riders album featuring several singers and music composers including Usha Uthup and Bappi Lahiri was also created."],
+    "tag": "KKR Team name, motto and logo design"}
+,
+	
+   {"context": "",
+    "patterns": ["Kolkata Knight Riders", "KKR"],
+    "responses": ["The Kolkata Knight Riders (KKR) are a franchise cricket team representing the city of Kolkata in the Indian Premier League. The franchise is owned by Bollywood actor Shah Rukh Khan, actress Juhi Chawla and her spouse Jay Mehta. The home of the Knight Riders is the iconic Eden Gardens stadium.The franchise, which has gained immense popularity due to its association with celebrity owners, qualified for the IPL playoffs for the first time in 2011. They became the IPL champions in 2012, by defeating Chennai Super Kings in the final. They repeated the feat in 2014, defeating Kings XI Punjab. The Knight Riders hold the record for the longest winning streak by any Indian team in T20s (14).The leading run-scorer of the side is Gautam Gambhir, while the leading wicket-taker is Sunil Narine. The official theme of the team is Korbo, Lorbo, Jeetbo Re (we will perform, fight and win!) and the official colours are purple and gold. The brand value of the Knight Riders was estimated at $104 million in 2018, second highest among IPL franchises. In 2019, their value was estimated at ₹629 crore (US$88 million)."],
+    "tag": "KKR"}
+,
+	
+   {"context": "",
+    "patterns": ["KKR history", "History of Kolkata Knight Riders","Kolkata Knight Riders history"],
+    "responses": ["=== 2008 ===\\nThe 2008 tournament got off to a slow start for the Kings XI Punjab, with the team losing their first two games. However, 94 runs by Kumar Sangakkara helped them to win the third game. Despite the absence of Brett Lee and Simon Katich (who were committed to tour the West Indies with Australia), the team found its groove. Powered by their balanced bowling line-up and effective top order, the team won nine of its next 10 matches, clinching a berth in the semi-final, where their run in the tournament came to an end with a comprehensive nine-wicket loss to the Chennai Super Kings.\\nShaun Marsh was arguably KXIP's star player in the inaugural IPL. The opener from Western Australia was overlooked in the IPL player auctions and was signed by the franchise on 9 April. He finished the tournament as the Orange Cap holder—the award for the player with the most runs across the competition—with an average of 68.44 and a strike rate of 139.68 in 11 innings. Marsh managed to hit one century and five half-centuries across the course of the tournament."],
+    "tag": "KKR history"}
+
+,
+	
+   {"context": "",
+    "patterns": ["Kolkata Knight Riders Jersey colours", " Jersey colours Kolkata Knight Riders"],
+    "responses": ["The Kolkata Knight Riders (KKR) franchise unveiled its official jersey ahead of the all-important IPL 2022 season on March 18. They will be donning their typical purple and gold color with the tagline of ‘Korbo Lorbo Jeetbo’ printed on the back"],
+    "tag": "KKR Jersey colours"}
+,
+	
+   {"context": "",
+    "patterns": ["KKR Theme song", "Theme song of Kolkata Knight Riders","Theme song of KKR"],
+    "responses": ["The team anthem used to be 'korbo lorbo jeetbo'. "],
+    "tag": "KKR Theme song"}
+,
+	
+   {"context": "",
+    "patterns": ["Owner of KKR ", "who is the owner of Kolkata Knight Riders","Owner of Kolkata Knight Riders","KKR owner"],
+    "responses": ["  Shah Rukh Khan, Juhi Chawla and Jay Mehta of the Mehta Group"],
+    "tag": "KKR Owner"}
+, 
+	
+   {"context": "",
+    "patterns": ["coach of KKR", "coach of Kolkata Knight Riders"],
+    "responses": ["Head coach -  Brendon McCullum"],
+    "tag": "KKR coach"}
+,
+	
+   {"context": "",
+    "patterns": ["Captain of KKR", "Who is the captain of KKR","Who is the captain of Kolkata Knight Riders","Kolkata Knight Riders's captain"],
+    "responses": ["Shreyas Iyer"],
+    "tag": "KKR Captains"}
+
+]}
